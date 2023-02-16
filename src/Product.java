@@ -21,7 +21,7 @@ public class Product {
     }
 
     public long getCreationDateAsSeconds(){
-        return (long) creationDate.toEpochSecond(ZoneOffset.UTC);
+        return creationDate.toEpochSecond(ZoneOffset.UTC);
     }
 
     public void setCreationDate(LocalDateTime creationDate) {
